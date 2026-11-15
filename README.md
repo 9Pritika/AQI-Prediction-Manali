@@ -90,6 +90,17 @@ The following results were obtained on the chronological test dataset:
 
 Multiple Linear Regression achieved the best test performance among the evaluated models, with an MAE of approximately 16.56 and an R² score of 0.556.
 
+### Prediction Error Analysis
+
+The Multiple Linear Regression model achieved the following results on the test dataset:
+
+- **77.61%** of predictions were within 20 AQI points of the actual values.
+- **51.94%** of predictions were within 10 AQI points of the actual values.
+- **Mean Absolute Error (MAE):** 16.56 AQI points.
+- **Median Absolute Error:** 9.48 AQI points.
+
+Although the model performed reasonably well for many observations, larger prediction errors occurred during unusual or extreme AQI conditions.
+
 ## Technologies Used
 
 - Python
